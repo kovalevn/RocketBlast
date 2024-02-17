@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/RocketStylesheet.uss?fileID=7433441132597879392&amp;guid=65266b2d7203b9040a949a5685903fc3&amp;type=3#RocketStylesheet" />
+    <ui:VisualElement style="align-items: stretch; justify-content: flex-start; flex-wrap: nowrap; flex-grow: 1; background-image: none; -unity-background-image-tint-color: rgb(255, 255, 255); display: flex;">
+        <ui:VisualElement name="Container" style="align-items: stretch; flex-wrap: nowrap;">
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="PrizePool" style="font-size: 30px; -unity-text-align: upper-left; color: rgb(255, 159, 0);" />
+        </ui:VisualElement>
+        <ui:Button text="Restart" display-tooltip-when-elided="true" name="Restart" style="flex-shrink: 0; align-items: center; justify-content: flex-end; flex-wrap: nowrap; flex-direction: column; flex-grow: 0; right: auto; width: 100px; left: auto;" />
+        <ui:Button text="Server" display-tooltip-when-elided="true" name="Server" style="flex-shrink: 0; align-items: center; justify-content: flex-end; flex-wrap: nowrap; flex-direction: column; flex-grow: 0; right: auto; width: 100px; left: auto;" />
+        <ui:Button text="Host" display-tooltip-when-elided="true" name="Host" style="flex-shrink: 0; align-items: center; justify-content: flex-end; flex-wrap: nowrap; flex-direction: column; flex-grow: 0; right: auto; width: 100px; left: auto;" />
+        <ui:Button text="Client" display-tooltip-when-elided="true" name="Client" style="flex-shrink: 0; align-items: center; justify-content: flex-end; flex-wrap: nowrap; flex-direction: column; flex-grow: 0; right: auto; width: 100px; left: auto;" />
+    </ui:VisualElement>
+    <ui:Label text="Press [space] to eject" display-tooltip-when-elided="true" name="Hint" style="-unity-text-align: upper-center; font-size: 30px; color: rgb(0, 255, 0); display: flex;" />
+</ui:UXML>
